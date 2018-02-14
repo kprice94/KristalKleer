@@ -1,66 +1,76 @@
-body{
+body {}
 
+header h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-right: 20px;
 }
-header h1{
-	text-align: center;
-	font-size:36px; 
-	margin-right: 20px;
-}
-h1{
-		
-	}
-a{
-	color: #000;
-	text-decoration: none;
-}
-a:hover{
-	color: #000;
-	text-decoration: none;;
-}
-	.container{
-		width:95%;
-		height: inherit;
-		margin: 0 auto;
 
-	}
-	.row{
-		height: inherit;
-	}
+h1 {}
 
-	/*Header, Navm Logo */
-	header{
-		margin-bottom: 10px;
-	}
-	.burger-nav{
-		float: left;
+a     {    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+    ;
+}
+
+.container {
+    width: 95%;
+    height: inherit;
+    margin: 0 auto;
+}
+
+.row {
+    height: inherit;
+}
+
+
+/*Header, Navm Logo */
+
+header {
+    margin-bottom: 10px;
+}
+
+.burger-nav {
+    float: left;
     font-size: 18px;
-        line-height: 45px;
-	}
-#homenav{
-
-	height:90vh;
+    line-height: 45px;
 }
-.centerimg{
-		position: absolute;
-		top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-	}
+
+#homenav {
+
+    height: 90vh;
+}
+
+.centerimg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
 /* from: http://stackoverflow.com/questions/796087/make-a-div-into-a-link */
-#podcast a span { 
-  position:absolute; 
-  width:100%;
-  height:100%;
-  top:0;
-  left: 0;
 
-  /* edit: added z-index */
-  z-index: 1;
+#podcast a span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 
-  /* edit: fixes overlap error in IE7/8, 
+    /* edit: added z-index */
+    z-index: 1;
+
+    /* edit: fixes overlap error in IE7/8, 
      make sure you have an empty gif */
-  background-image: url('empty.gif');
+    background-image: url('empty.gif');
 }
+
 
 /*.centerimg h2{
 		    color: white;
@@ -72,58 +82,67 @@ a:hover{
     width: 100%;
     font-size: 40px;
 	} */
-img{
-	height: auto;
-	max-width: 100%;
 
-}
-
-#podcast{
-	background-color: rgba(196, 196, 196, .2);
+img {
+    height: auto;
+    max-width: 100%;
 }
 
-#podcast:hover{
-	color: #fff;
-}
-#tv{
-	background-color: rgba(196, 196, 196, .2);
-}
-#booking{
-	background-color: rgba(147, 147, 147, .2);
-}
-#shop{
-	background-color: rgba(147, 147, 147, .2);
+#podcast {
+    background-color: rgba(196, 196, 196, .2);
 }
 
-footer ul{
-	text-align: center;
+#podcast:hover {
+    color: #fff;
 }
+
+#tv {
+    background-color: rgba(196, 196, 196, .2);
+}
+
+#booking {
+    background-color: rgba(147, 147, 147, .2);
+}
+
+#shop {
+    background-color: rgba(147, 147, 147, .2);
+}
+
+footer ul {
+    text-align: center;
+}
+
 
 /* Footer */
 
-			
-.socialicons{
-	display: inline;
-	padding: 0 5px;
+.socialicons {
+    display: inline;
+    padding: 0 5px;
 }
+
 
 /* Generic Classes */
-.no-padding{
-	padding: 0 !important;
+
+.no-padding {
+    padding: 0 !important;
 }
-.no-pm{
-		padding: 0 !important;
-   margin: 0 !important;
+
+.no-pm {
+    padding: 0 !important;
+    margin: 0 !important;
 }
-.hide{
-	display: none;
+
+.hide {
+    display: none;
 }
-.overlay{
-	background-color: black !important;
+
+.overlay {
+    background-color: black !important;
 }
+
 
 /*Podcast Page */
-#pageHead{
-margin: 15px 0px;
-}
 
+#pageHead {
+    margin: 15px 0px;
+}
