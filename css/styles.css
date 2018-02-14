@@ -56,7 +56,7 @@ header {
 
 /* from: http://stackoverflow.com/questions/796087/make-a-div-into-a-link */
 
-#podcast a span {
+#columnnav a span {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -114,6 +114,9 @@ footer ul {
 
 
 /* Footer */
+.footer{
+	padding: 5px 0px;
+}
 
 .socialicons {
     display: inline;
