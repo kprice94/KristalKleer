@@ -1,0 +1,20 @@
+.video{
+  
+    width: 900px;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0px;
+    margin: 0 auto;
+}
+.video iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.titleDesc{
+    line-height: 1px;
+    margin-bottom: 50px;
+}
