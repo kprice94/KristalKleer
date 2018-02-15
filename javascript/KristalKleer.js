@@ -1,5 +1,4 @@
-$("img").hover(function(){
-    $(this).animate({top: '0'}, 100);
-}, function(){
-    $(this).animate({top: '-3px'}, 100);
-});
+/*
+$('div.columnnav').mouseover(function() {
+    $(this).addClass("overlay");
+});*/
