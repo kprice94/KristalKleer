@@ -1,11 +1,11 @@
 .video{
   
-    width: 900px;
+    padding-top: 30px;
     overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
-    height: 0px;
-    margin: 0 auto;
+    height: 0;
+   
 }
 .video iframe{
     left:0;
@@ -17,4 +17,24 @@
 .titleDesc{
     line-height: 1px;
     margin-bottom: 50px;
+}
+
+#videos{
+       margin: 0 auto;
+    width: 650px;
+}
+
+#button{
+    display: none;
+    font-size: 40px;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+@media (max-width: 425px) {
+    #button {
+        font-size: 20px;
+        bottom:20px;
+        right: 2px;
+    }
 }
