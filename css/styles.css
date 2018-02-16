@@ -210,6 +210,24 @@
         text-align: center;
     }
     /*--Booking Page--*/
+
+    #services {
+        padding: 25px;
+    }
+
+    #services h2 {
+        font-size: 2.5rem;
+    }
+
+    #services p {
+        font-size: 1.5rem;
+        padding-left: 15px;
+    }
+
+    #book {
+        padding: 25px;
+        font-size: 24px;
+    }
     /*--Gallery Page--*/
 
     #photos img {
