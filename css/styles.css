@@ -20,7 +20,7 @@ a:hover {
 }
 
 .container {
-    width: 95%;
+    width: 90%;
     height: inherit;
     margin: 0 auto;
 }
@@ -28,6 +28,19 @@ a:hover {
 .row {
     height: inherit;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -100,13 +113,14 @@ header {
 
 .burger-nav {
     float: left;
-    font-size: 22px;
-    line-height: 50px;
+    font-size: 25px;
+    position: absolute;
+    top: 35%;
 }
 
 #homenav {
 
-    height: 90vh;
+    height: 85vh;
 }
 
 .centerimg {
@@ -137,6 +151,12 @@ header {
     line-height: 90px;
 }
 
+@media( max-width: 350px) {
+    #navigation ul {
+        line-height: 80px;
+    }
+}
+
 #navigation ul li a:hover {
     text-decoration: line-through;
 }
@@ -149,10 +169,23 @@ header {
 }
 
 #logo {
-    padding: 15px 20px 5px 0px;
+    padding: 5px 0px 0px 0px;
     width: 100%;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -227,8 +260,12 @@ header {
     background-image: url('empty.gif');
 }
 
+.columnnav {
+    color: #000;
+}
+
 .columnnav:hover {
-    color: #fff;
+    color: #000;
 }
 
 
@@ -240,6 +277,19 @@ header {
 #homeoverlay {
     height: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -322,25 +372,44 @@ img {
     }
 }
 
+@media(max-width: 425px) {
+    img {
+        max-height: 70px;
+    }
+}
+
 #podcast {
-    background-color: rgba(195, 195, 195, .7);
+    background-color: rgba(242, 242, 242, .9);
 }
 
 #shop {
-    background-color: rgba(1, 1, 1, .7);
+    background-color: rgba(232, 232, 232, .9);
 }
 
 #gallery {
-    background-color: rgba(195, 195, 195, .7);
+    background-color: rgba(242, 242, 242, .9);
 }
 
 #booking {
-    background-color: rgba(1, 1, 1, .7);
+    background-color: rgba(232, 232, 232, .9);
 }
 
 footer ul {
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -511,6 +580,19 @@ footer ul {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Generic Classes */
 
 .no-padding {
@@ -529,6 +611,19 @@ footer ul {
 .overlay {
     background-color: black !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
