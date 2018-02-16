@@ -77,6 +77,21 @@ a:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Header, Navm Logo */
 
 header {
@@ -114,7 +129,7 @@ header {
 }
 
 #navigation ul {
-        font-weight: 600;
+    font-weight: 600;
     list-style: none;
     width: 100%;
     text-align: center;
@@ -131,14 +146,28 @@ header {
     font-size: 30px;
     text-align: right;
     width: 90%;
-   
 }
 
-#logo{
+#logo {
     padding: 15px 20px 5px 0px;
     width: 100%;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -256,8 +285,23 @@ header {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*.centerimg h2{
-		    color: white;
+            color: white;
     position: absolute;
     margin: 0 auto;
     top: 50%;
@@ -265,7 +309,7 @@ header {
     text-align: center;
     width: 100%;
     font-size: 40px;
-	} */
+    } */
 
 img {
     height: auto;
@@ -279,26 +323,39 @@ img {
 }
 
 #podcast {
-    background-color: rgba(245, 196, 6, .2);
-}
-
-
-
-#about {
-    background-color: rgba(16, 16, 196, .2);
-}
-
-#booking {
-    background-color: rgba(17, 147, 14, .2);
+    background-color: rgba(195, 195, 195, .7);
 }
 
 #shop {
-    background-color: rgba(147, 17, 147, .2);
+    background-color: rgba(1, 1, 1, .7);
+}
+
+#gallery {
+    background-color: rgba(195, 195, 195, .7);
+}
+
+#booking {
+    background-color: rgba(1, 1, 1, .7);
 }
 
 footer ul {
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -439,6 +496,21 @@ footer ul {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Generic Classes */
 
 .no-padding {
@@ -457,6 +529,21 @@ footer ul {
 .overlay {
     background-color: black !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
