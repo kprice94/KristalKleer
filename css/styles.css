@@ -265,10 +265,20 @@
 
     #bfooter {
         position: absolute;
-        bottom: 0;
+
         text-align: center;
         width: 100%;
         color: #fff;
+    }
+
+    @media (max-width: 1024px) {
+
+        #about {
+            padding: 0px;
+        }
+        #booknow {
+            padding-top: 15px;
+        }
     }
 
     @media (max-width:992px) {
