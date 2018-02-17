@@ -70,7 +70,7 @@
         list-style: none;
         width: 100%;
         text-align: center;
-        font-size: 48px;
+        font-size: 35px;
         line-height: 90px;
     }
 
@@ -142,7 +142,7 @@
     @media(max-width: 992px) {
         #homeoverlay {
             height: 100%;
-            background-color: rgba(255, 255, 255, .4);
+            background-color: rgba(255, 255, 255, .5);
         }
     }
     /*.centerimg h2{
@@ -233,12 +233,13 @@
 
     #about {
         color: #fff;
-        padding: 25px;
+        padding: 70px;
     }
 
     #booknow {
         color: #fff;
         text-align: center;
+        padding-top: 70px;
     }
 
     #booknow h1 {
@@ -274,6 +275,9 @@
         #about {
             padding: 0px;
             text-align: center;
+        }
+        #booknow {
+            padding-top: 25px;
         }
         #booknow h1 {
             font-size: 2rem;
@@ -366,6 +370,9 @@
             -moz-column-count: 1;
             -webkit-column-count: 1;
             column-count: 1;
+        }
+        #photos img {
+            padding: 0px 0px 10px 0px;
         }
     }
     /* Footer */
