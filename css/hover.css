@@ -87,6 +87,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Shrink */
 
 .hvr-shrink {
@@ -107,6 +116,15 @@
     -webkit-transform: scale(0.9);
     transform: scale(0.9);
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -261,6 +279,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Pulse Grow */
 
 @-webkit-keyframes hvr-pulse-grow {
@@ -354,6 +381,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Pulse Shrink */
 
 @-webkit-keyframes hvr-pulse-shrink {
@@ -392,6 +428,15 @@
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -546,6 +591,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Pop */
 
 @-webkit-keyframes hvr-pop {
@@ -582,6 +636,15 @@
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -712,6 +775,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Bounce Out */
 
 .hvr-bounce-out {
@@ -732,6 +804,15 @@
     -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -862,6 +943,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Grow Rotate */
 
 .hvr-grow-rotate {
@@ -882,6 +972,15 @@
     -webkit-transform: scale(1.1) rotate(4deg);
     transform: scale(1.1) rotate(4deg);
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1014,6 +1113,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Sink */
 
 .hvr-sink {
@@ -1036,6 +1144,15 @@
     -webkit-transform: translateY(8px);
     transform: translateY(8px);
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1218,6 +1335,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Hang */
 
 @-webkit-keyframes hvr-hang {
@@ -1345,6 +1471,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Skew */
 
 .hvr-skew {
@@ -1365,6 +1500,15 @@
     -webkit-transform: skew(-10deg);
     transform: skew(-10deg);
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1497,6 +1641,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Skew Backward */
 
 .hvr-skew-backward {
@@ -1519,6 +1672,15 @@
     -webkit-transform: skew(10deg);
     transform: skew(10deg);
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1705,6 +1867,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Wobble Horizontal */
 
 @-webkit-keyframes hvr-wobble-horizontal {
@@ -1781,6 +1952,15 @@
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1967,6 +2147,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Wobble To Top Right */
 
 @-webkit-keyframes hvr-wobble-to-top-right {
@@ -2043,6 +2232,15 @@
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2231,6 +2429,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Wobble Bottom */
 
 @-webkit-keyframes hvr-wobble-bottom {
@@ -2309,6 +2516,15 @@
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2495,6 +2711,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Buzz */
 
 @-webkit-keyframes hvr-buzz {
@@ -2539,6 +2764,15 @@
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2757,6 +2991,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Forward */
 
 .hvr-forward {
@@ -2777,6 +3020,15 @@
     -webkit-transform: translateX(8px);
     transform: translateX(8px);
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2907,6 +3159,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* BACKGROUND TRANSITIONS */
 
 
@@ -2931,6 +3192,15 @@
     background-color: #2098D1;
     color: white;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3018,6 +3288,15 @@
     background-color: #2098d1;
     color: white;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3176,6 +3455,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Sweep To Left */
 
 .hvr-sweep-to-left {
@@ -3224,6 +3512,15 @@
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3382,6 +3679,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Sweep To Top */
 
 .hvr-sweep-to-top {
@@ -3430,6 +3736,15 @@
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3590,6 +3905,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Bounce To Left */
 
 .hvr-bounce-to-left {
@@ -3640,6 +3964,15 @@
     -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
     transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3800,6 +4133,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Bounce To Top */
 
 .hvr-bounce-to-top {
@@ -3850,6 +4192,15 @@
     -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
     transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4009,6 +4360,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Radial In */
 
 .hvr-radial-in {
@@ -4058,6 +4418,15 @@
     -webkit-transform: scale(0);
     transform: scale(0);
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4215,6 +4584,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Rectangle Out */
 
 .hvr-rectangle-out {
@@ -4262,6 +4640,15 @@
     -webkit-transform: scale(1);
     transform: scale(1);
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4421,6 +4808,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Shutter Out Horizontal */
 
 .hvr-shutter-out-horizontal {
@@ -4470,6 +4866,15 @@
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4629,6 +5034,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Shutter Out Vertical */
 
 .hvr-shutter-out-vertical {
@@ -4678,6 +5092,15 @@
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4813,6 +5236,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Hollow */
 
 .hvr-hollow {
@@ -4834,6 +5266,15 @@
 .hvr-hollow:active {
     background: none;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4975,6 +5416,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Ripple Out */
 
 @-webkit-keyframes hvr-ripple-out {
@@ -5024,6 +5474,15 @@
     -webkit-animation-name: hvr-ripple-out;
     animation-name: hvr-ripple-out;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5184,6 +5643,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Outline Out */
 
 .hvr-outline-out {
@@ -5217,6 +5685,15 @@
     bottom: -8px;
     left: -8px;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5363,6 +5840,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Round Corners */
 
 .hvr-round-corners {
@@ -5382,6 +5868,15 @@
 .hvr-round-corners:active {
     border-radius: 1em;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5471,6 +5966,15 @@
 .hvr-underline-from-left:active:before {
     right: 0;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5616,6 +6120,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Underline From Right */
 
 .hvr-underline-from-right {
@@ -5705,6 +6218,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Overline From Left */
 
 .hvr-overline-from-left {
@@ -5739,6 +6261,15 @@
 .hvr-overline-from-left:active:before {
     right: 0;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5884,6 +6415,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Overline From Right */
 
 .hvr-overline-from-right {
@@ -5918,6 +6458,15 @@
 .hvr-overline-from-right:active:before {
     left: 0;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6066,6 +6615,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Underline Reveal */
 
 .hvr-underline-reveal {
@@ -6103,6 +6661,15 @@
     -webkit-transform: translateY(0);
     transform: translateY(0);
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6250,6 +6817,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* SHADOW/GLOW TRANSITIONS */
 
 
@@ -6327,6 +6903,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Shadow */
 
 .hvr-shadow {
@@ -6346,6 +6931,15 @@
 .hvr-shadow:active {
     box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6477,6 +7071,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Box Shadow Outset */
 
 .hvr-box-shadow-outset {
@@ -6496,6 +7099,15 @@
 .hvr-box-shadow-outset:active {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6573,6 +7185,15 @@
     box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.6), 0 0 1px transparent;
     /* Hack to improve aliasing on mobile/tablet devices */
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6733,6 +7354,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Shadow Radial */
 
 .hvr-shadow-radial {
@@ -6781,6 +7411,15 @@
 .hvr-shadow-radial:active:after {
     opacity: 1;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6927,6 +7566,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Bubble Right */
 
 .hvr-bubble-right {
@@ -6960,6 +7608,15 @@
     -webkit-transform: translateX(10px);
     transform: translateX(10px);
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7103,6 +7760,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Bubble Left */
 
 .hvr-bubble-left {
@@ -7136,6 +7802,15 @@
     -webkit-transform: translateX(-10px);
     transform: translateX(-10px);
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7289,6 +7964,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Bubble Float Right */
 
 .hvr-bubble-float-right {
@@ -7332,6 +8016,15 @@
     -webkit-transform: translateX(10px);
     transform: translateX(10px);
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7485,6 +8178,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Bubble Float Left */
 
 .hvr-bubble-float-left {
@@ -7528,6 +8230,15 @@
     -webkit-transform: translateX(-10px);
     transform: translateX(-10px);
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7677,6 +8388,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Icon Forward */
 
 .hvr-icon-forward {
@@ -7768,6 +8488,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Icon Down */
 
 @-webkit-keyframes hvr-icon-down {
@@ -7797,6 +8526,15 @@
         transform: translateY(6px);
     }
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7939,6 +8677,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Icon Up */
 
 @-webkit-keyframes hvr-icon-up {
@@ -7968,6 +8715,15 @@
         transform: translateY(-6px);
     }
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -8110,6 +8866,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Icon Spin */
 
 .hvr-icon-spin {
@@ -8197,6 +8962,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Icon Drop */
 
 @-webkit-keyframes hvr-icon-drop {
@@ -8228,6 +9002,15 @@
         opacity: 1;
     }
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -8380,6 +9163,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Icon Fade */
 
 .hvr-icon-fade {
@@ -8466,6 +9258,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Icon Float Away */
 
 @-webkit-keyframes hvr-icon-float-away {
@@ -8489,6 +9290,15 @@
         transform: translateY(-1em);
     }
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -8636,6 +9446,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Icon Sink Away */
 
 @-webkit-keyframes hvr-icon-sink-away {
@@ -8659,6 +9478,15 @@
         transform: translateY(1em);
     }
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -8808,6 +9636,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Icon Grow */
 
 .hvr-icon-grow {
@@ -8899,6 +9736,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Icon Shrink */
 
 .hvr-icon-shrink {
@@ -8935,6 +9781,15 @@
     -webkit-transform: scale(0.8);
     transform: scale(0.8);
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -9103,6 +9958,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Icon Pulse Grow */
 
 @-webkit-keyframes hvr-icon-pulse-grow {
@@ -9210,6 +10074,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Icon Pulse Shrink */
 
 @-webkit-keyframes hvr-icon-pulse-shrink {
@@ -9262,6 +10135,15 @@
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -9428,6 +10310,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Icon Pop */
 
 @-webkit-keyframes hvr-icon-pop {
@@ -9484,6 +10375,15 @@
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -9632,6 +10532,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Icon Rotate */
 
 .hvr-icon-rotate {
@@ -9668,6 +10577,15 @@
     -webkit-transform: rotate(20deg);
     transform: rotate(20deg);
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -9814,6 +10732,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Icon Float */
 
 .hvr-icon-float {
@@ -9905,6 +10832,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Icon Sink */
 
 .hvr-icon-sink {
@@ -9941,6 +10877,15 @@
     -webkit-transform: translateY(4px);
     transform: translateY(4px);
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -10137,6 +11082,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Icon Hang */
 
 @-webkit-keyframes hvr-icon-hang {
@@ -10223,6 +11177,15 @@
     -webkit-animation-direction: normal, alternate;
     animation-direction: normal, alternate;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -10423,6 +11386,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Icon Wobble Vertical */
 
 @-webkit-keyframes hvr-icon-wobble-vertical {
@@ -10568,6 +11540,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Icon Buzz */
 
 @-webkit-keyframes hvr-icon-buzz {
@@ -10626,6 +11607,15 @@
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -10858,6 +11848,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* CURLS */
 
 
@@ -10899,6 +11898,15 @@
     width: 25px;
     height: 25px;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -11044,6 +12052,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Curl Bottom Right */
 
 .hvr-curl-bottom-right {
@@ -11134,6 +12151,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Curl Bottom Left */
 
 .hvr-curl-bottom-left {
@@ -11169,6 +12195,15 @@
     width: 25px;
     height: 25px;
 }
+
+
+
+
+
+
+
+
+
 
 
 

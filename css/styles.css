@@ -85,10 +85,11 @@
     }
 
     .closebutton {
-        margin-top: 20px;
+        margin-top: 30px;
         font-size: 30px;
-        text-align: right;
-        width: 90%;
+
+        width: 100%;
+        margin-left: 30px;
     }
 
     #logo {
@@ -211,22 +212,80 @@
     }
     /*--Booking Page--*/
 
-    #services {
+    #bg {
+        position: fixed;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+    }
+
+    #bg img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        min-width: 50%;
+        min-height: 50%;
+    }
+
+    #about {
+        color: #fff;
         padding: 25px;
     }
 
-    #services h2 {
-        font-size: 2.5rem;
+    #booknow {
+        color: #fff;
+        text-align: center;
     }
 
-    #services p {
-        font-size: 1.5rem;
-        padding-left: 15px;
+    #booknow h1 {
+
+        font-size: 150px;
+        text-align: center;
     }
 
-    #book {
-        padding: 25px;
-        font-size: 24px;
+    #booknow p {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    #booknow a {
+        color: #fff;
+        padding: 0px 20px;
+        margin: 0px 20px;
+    }
+
+    #booknow a:hover {
+        color: lightgrey;
+    }
+
+    #bfooter {
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+        color: #fff;
+    }
+
+    @media (max-width:992px) {
+        #about {
+            padding: 0px;
+            text-align: center;
+        }
+        #booknow h1 {
+            font-size: 2rem;
+        }
+        #booknow a {
+            padding: 0px 10px;
+            margin: 0px;
+        }
+
+        #bfooter {
+            display: none;
+        }
     }
     /*--Gallery Page--*/
 
