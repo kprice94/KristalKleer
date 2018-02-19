@@ -173,6 +173,15 @@
         }
     }
 
+    #hfooter {
+        font-size: 26px;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+        color: #fff;
+    }
+
     #podcast {
         background-color: rgba(242, 242, 242, .9);
         background-image: url(../assets/images/home-tv.jpg);
