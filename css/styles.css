@@ -1,155 +1,172 @@
-    body {}
+   @import url('fonts/stylesheet.css');
 
-    header h1 {
-        text-align: center;
-        font-size: 36px;
-        margin-right: 20px;
-    }
+   body {
+       font-family: "arkitech_mediummedium";
+   }
 
-    h1 {}
+   header h1 {
+       text-align: center;
+       font-size: 36px;
+       margin-right: 20px;
+   }
 
-    a {
-        color: #000;
-        text-decoration: none;
-    }
+   h1 {}
 
-    a:hover {
-        color: #000;
-        text-decoration: none;
-        ;
-    }
+   a {
+       color: #000;
+       text-decoration: none;
+   }
 
-    .container {
-        width: 90%;
-        height: inherit;
-        margin: 0 auto;
-    }
+   a:hover {
+       color: #000;
+       text-decoration: none;
+       ;
+   }
 
-    .row {
-        height: inherit;
-    }
-    /*Header, Navm Logo */
+   .container {
+       width: 90%;
+       height: inherit;
+       margin: 0 auto;
+   }
 
-    header {
-        margin-bottom: 10px;
-    }
+   .row {
+       height: inherit;
+   }
+   /*Header, Navm Logo */
 
-    .burger-nav {
-        float: left;
-        font-size: 26px;
-        position: absolute;
-        top: 25px;
-        left: 25px;
-    }
+   header {
+       margin-bottom: 10px;
+   }
 
-    #homenav {
+   .burger-nav {
+       float: left;
+       font-size: 26px;
+       position: absolute;
+       top: 25px;
+       left: 25px;
+   }
 
-        height: 85vh;
-    }
+   #homenav {
 
-    .centerimg {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%;
-        text-align: center;
-    }
+       height: 85vh;
+   }
 
+   .centerimg {
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       width: 100%;
+       text-align: center;
+   }
 
-    #navigation {
-        position: fixed;
-        height: 100%;
-        width: 100%;
-        background-color: rgba(255, 255, 255, .9);
-        z-index: 1;
-        color: #000;
-    }
+   .centerimg h2 {
+       font-size: 24px;
+   }
 
-    #navigation ul {
-        font-weight: 600;
-        list-style: none;
-        width: 100%;
-        text-align: center;
-        font-size: 35px;
-        line-height: 90px;
-    }
+   @media(max-width: 992px) {
+       .centerimg h2 {
+           font-size: 20px;
+       }
+   }
 
-    @media( max-width: 350px) {
-        #navigation ul {
-            line-height: 80px;
-        }
-    }
+   #navigation {
+       position: fixed;
+       height: 100%;
+       width: 100%;
+       background-color: rgba(255, 255, 255, .9);
+       z-index: 1;
+       color: #000;
+   }
 
-    #navigation ul li a:hover {
-        text-decoration: line-through;
-    }
+   #navigation ul {
+       font-weight: 600;
+       list-style: none;
+       width: 100%;
+       text-align: center;
+       font-size: 35px;
+       line-height: 90px;
+   }
 
-    .closebutton {
-        width: 90%;
-        top: 25px;
-        position: relative;
+   @media( max-width: 350px) {
+       #navigation ul {
+           line-height: 80px;
+       }
+   }
 
-        font-size: 30px;
+   #navigation ul li a:hover {
+       text-decoration: line-through;
+   }
 
-        left: 25px;
-        margin: 0 auto;
-    }
+   .closebutton {
+       width: 90%;
+       top: 25px;
+       position: relative;
 
-    #logo {
-        padding: 5px 0px 0px 0px;
-        width: 100%;
-        text-align: center;
-    }
-    /* from: http://stackoverflow.com/questions/796087/make-a-div-into-a-link */
+       font-size: 30px;
 
-    .columnnav a span {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
+       left: 25px;
+       margin: 0 auto;
+   }
 
-        /* edit: added z-index */
-        z-index: 1;
+   #logo {
+       padding: 5px 0px 0px 0px;
+       width: 100%;
+       text-align: center;
+   }
+   /* from: http://stackoverflow.com/questions/796087/make-a-div-into-a-link */
 
-        /* edit: fixes overlap error in IE7/8, 
+   .columnnav a span {
+       position: absolute;
+       width: 100%;
+       height: 100%;
+       top: 0;
+       left: 0;
+
+       /* edit: added z-index */
+       z-index: 1;
+
+       /* edit: fixes overlap error in IE7/8, 
      make sure you have an empty gif */
-        background-image: url('empty.gif');
-    }
+       background-image: url('empty.gif');
+   }
 
-    .columnnav {
-        color: #000;
-    }
+   .columnnav {
+       color: #000;
+   }
 
-    @media (min-width: 992px) {
+   @media (min-width: 992px) {
 
-        .centerimg {
-            display: none;
-        }
-        .columnnav:hover .centerimg {
-            color: #fff;
-            -webkit-transition: color 7s ease;
-            -moz-transition: color 7s ease;
-            -o-transition: color 7s ease;
-            transition: color 7s ease;
-            display: block;
-        }
-    }
+       .centerimg {
+           display: none;
+       }
+       .columnnav:hover .centerimg {
+           color: #fff;
+           -webkit-transition: color 7s ease;
+           -moz-transition: color 7s ease;
+           -o-transition: color 7s ease;
+           transition: color 7s ease;
+           display: block;
+       }
+   }
 
 
-    .overlay {
-        background-color: red;
-        height: 100%;
-    }
+   .overlay {
+       background-color: red;
+       height: 100%;
+   }
 
-    @media(max-width: 992px) {
-        #homeoverlay {
-            height: 100%;
-            background-color: rgba(255, 255, 255, .5);
-        }
-    }
-    /*.centerimg h2{
+   @media(max-width: 992px) {
+       #homeoverlay {
+           height: 100%;
+           /*   background-color: rgba(255, 255, 255, .6)*/
+       }
+       .centerimg {
+           color: #ffffff;
+           background-color: rgba(5, 5, 5, .6);
+       }
+   }
+   /*.centerimg h2{
             color: white;
     position: absolute;
     margin: 0 auto;
@@ -160,308 +177,309 @@
     font-size: 40px;
     } */
 
-    img {
-        height: auto;
-        max-width: 80%;
-    }
+   img {
+       height: auto;
+       max-width: 80%;
+   }
 
-    @media (max-width: 992px) {
-        img {
-            max-height: 100px;
-        }
-    }
+   @media (max-width: 992px) {
+       img {
+           max-height: 100px;
+       }
+   }
 
-    @media(max-width: 425px) {
-        img {
-            max-height: 70px;
-        }
-    }
+   @media(max-width: 425px) {
+       img {
+           max-height: 70px;
+       }
+   }
 
-    #hfooter {
-        font-size: 26px;
-        position: absolute;
-        bottom: 0;
-        text-align: center;
-        width: 100%;
-        color: #fff;
-    }
+   #hfooter {
+       font-size: 26px;
+       position: absolute;
+       bottom: 0;
+       text-align: center;
+       width: 100%;
+       color: #fff;
+   }
 
-    #podcast {
-        background-color: rgba(242, 242, 242, .9);
-        background-image: url(../assets/images/home-tv.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+   #podcast {
+       background-color: rgba(242, 242, 242, .9);
+       background-image: url(../assets/images/home-tv.jpg);
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+   }
 
-    #gallery {
-        background-color: rgba(242, 242, 242, .9);
-        background-image: url(../assets/images/home-gallery.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+   #gallery {
+       background-color: rgba(242, 242, 242, .9);
+       background-image: url(../assets/images/home-gallery.jpg);
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+   }
 
-    #shop {
+   #shop {
 
-        background-image: url(../assets/images/home-shop.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat; // background-color: rgba(232, 232, 232, .9);
-    }
+       background-image: url(../assets/images/home-shop.jpg);
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat; // background-color: rgba(232, 232, 232, .9);
+   }
 
 
 
-    #booking {
-        background-color: rgba(232, 232, 232, .9);
-        background-image: url(../assets/images/home-booking.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+   #booking {
+       background-color: rgba(232, 232, 232, .9);
+       background-image: url(../assets/images/home-booking.jpg);
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+   }
 
-    footer ul {
-        text-align: center;
-    }
-    /*--Booking Page--*/
+   footer ul {
+       text-align: center;
+   }
+   /*--Booking Page--*/
 
-    #bg {
-        position: fixed;
-        top: -50%;
-        left: -50%;
-        width: 200%;
-        height: 200%;
-    }
+   #bg {
+       position: fixed;
+       top: -50%;
+       left: -50%;
+       width: 200%;
+       height: 200%;
+   }
 
-    #bg img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        margin: auto;
-        min-width: 50%;
-        min-height: 50%;
-    }
+   #bg img {
+       position: absolute;
+       top: 0;
+       left: 0;
+       right: 0;
+       bottom: 0;
+       margin: auto;
+       max-width: 100%;
+       min-width: 50%;
+       min-height: 50%;
+   }
 
-    #about {
-        color: #fff;
-        padding: 70px;
-    }
+   #about {
+       color: #fff;
+       padding: 70px;
+   }
 
-    #booknow {
-        color: #fff;
-        text-align: center;
-        padding-top: 70px;
-    }
+   #booknow {
+       color: #fff;
+       text-align: center;
+       padding-top: 70px;
+   }
 
-    #booknow h1 {
+   #booknow h1 {
 
-        font-size: 150px;
-        text-align: center;
-    }
+       font-size: 150px;
+       text-align: center;
+   }
 
-    #booknow p {
-        font-size: 18px;
-        font-weight: 700;
-    }
+   #booknow p {
+       font-size: 18px;
+       font-weight: 700;
+   }
 
-    #booknow a {
-        color: #fff;
-        padding: 0px 20px;
-        margin: 0px 20px;
-    }
+   #booknow a {
+       color: #fff;
+       padding: 0px 20px;
+       margin: 0px 20px;
+   }
 
-    #booknow a:hover {
-        color: lightgrey;
-    }
+   #booknow a:hover {
+       color: lightgrey;
+   }
 
-    #bfooter {
-        position: absolute;
+   #bfooter {
+       position: absolute;
 
-        text-align: center;
-        width: 100%;
-        color: #fff;
-    }
+       text-align: center;
+       width: 100%;
+       color: #fff;
+   }
 
-    @media (max-width: 1024px) {
+   @media (max-width: 1024px) {
 
-        #about {
-            padding: 0px;
-        }
-        #booknow {
-            padding-top: 15px;
-        }
-    }
+       #about {
+           padding: 0px;
+       }
+       #booknow {
+           padding-top: 15px;
+       }
+   }
 
-    @media (max-width:992px) {
-        #about {
-            padding: 0px;
-            text-align: center;
-        }
-        #booknow {
-            padding-top: 25px;
-        }
-        #booknow h1 {
-            font-size: 2rem;
-        }
-        #booknow a {
-            padding: 0px 10px;
-            margin: 0px;
-        }
+   @media (max-width:992px) {
+       #about {
+           padding: 0px;
+           text-align: center;
+       }
+       #booknow {
+           padding-top: 25px;
+       }
+       #booknow h1 {
+           font-size: 2rem;
+       }
+       #booknow a {
+           padding: 0px 10px;
+           margin: 0px;
+       }
 
-        #bfooter {
-            display: none;
-        }
-    }
-    /*--Gallery Page--*/
+       #bfooter {
+           display: none;
+       }
+   }
+   /*--Gallery Page--*/
 
-    #photos img {
+   #photos img {
 
-        max-width: 100%;
-        padding: 0px 10px 10px 0px;
-    }
+       max-width: 100%;
+       padding: 0px 10px 10px 0px;
+   }
 
-    @media(max-width: 992px) {
-        #photos img {
+   @media(max-width: 992px) {
+       #photos img {
 
-            max-height: 100%;
-        }
-    }
+           max-height: 100%;
+       }
+   }
 
-    #button {
-        display: none;
-        font-size: 40px;
-        position: fixed;
-        bottom: 30px;
-        right: 20px;
-    }
+   #button {
+       display: none;
+       font-size: 40px;
+       position: fixed;
+       bottom: 30px;
+       right: 20px;
+   }
 
-    @media (max-width: 425px) {
-        #button {
-            font-size: 20px;
-            bottom: 20px;
-            right: 2px;
-        }
-    }
+   @media (max-width: 425px) {
+       #button {
+           font-size: 20px;
+           bottom: 20px;
+           right: 2px;
+       }
+   }
 
-    #photos {
-        /* Prevent vertical gaps */
-        line-height: 0;
+   #photos {
+       /* Prevent vertical gaps */
+       line-height: 0;
 
-        -webkit-column-count: 4;
-        -webkit-column-gap: 0px;
-        -moz-column-count: 4;
-        -moz-column-gap: 0px;
-        column-count: 4;
-        column-gap: 0px;
-    }
+       -webkit-column-count: 4;
+       -webkit-column-gap: 0px;
+       -moz-column-count: 4;
+       -moz-column-gap: 0px;
+       column-count: 4;
+       column-gap: 0px;
+   }
 
-    #photos img {
-        /* Just in case there are inline attributes */
-        width: 100% !important;
-        height: auto !important;
-        max-width: 100% !important;
-    }
+   #photos img {
+       /* Just in case there are inline attributes */
+       width: 100% !important;
+       height: auto !important;
+       max-width: 100% !important;
+   }
 
-    @media (max-width: 1440px) {
-        #photos {
-            -moz-column-count: 4;
-            -webkit-column-count: 4;
-            column-count: 4;
-        }
-    }
+   @media (max-width: 1440px) {
+       #photos {
+           -moz-column-count: 4;
+           -webkit-column-count: 4;
+           column-count: 4;
+       }
+   }
 
-    @media (max-width: 1000px) {
-        #photos {
-            -moz-column-count: 3;
-            -webkit-column-count: 3;
-            column-count: 3;
-        }
-    }
+   @media (max-width: 1000px) {
+       #photos {
+           -moz-column-count: 3;
+           -webkit-column-count: 3;
+           column-count: 3;
+       }
+   }
 
-    @media (max-width: 800px) {
-        #photos {
-            -moz-column-count: 2;
-            -webkit-column-count: 2;
-            column-count: 2;
-        }
-    }
+   @media (max-width: 800px) {
+       #photos {
+           -moz-column-count: 2;
+           -webkit-column-count: 2;
+           column-count: 2;
+       }
+   }
 
-    @media (max-width: 425px) {
-        #photos {
-            -moz-column-count: 1;
-            -webkit-column-count: 1;
-            column-count: 1;
-        }
-        #photos img {
-            padding: 0px 0px 10px 0px;
-        }
-    }
-    /* Footer */
+   @media (max-width: 425px) {
+       #photos {
+           -moz-column-count: 1;
+           -webkit-column-count: 1;
+           column-count: 1;
+       }
+       #photos img {
+           padding: 0px 0px 10px 0px;
+       }
+   }
+   /* Footer */
 
-    .footer {
-        padding: 5px 0px;
-    }
+   .footer {
+       padding: 5px 0px;
+   }
 
-    .socialicons {
-        display: inline;
-        padding: 0 5px;
-    }
+   .socialicons {
+       display: inline;
+       padding: 0 5px;
+   }
 
-    .fa-twitter:hover {
-        color: lightblue;
-    }
+   .fa-twitter:hover {
+       color: lightblue;
+   }
 
-    .fa-facebook-f:hover {
-        color: blue;
-    }
+   .fa-facebook-f:hover {
+       color: blue;
+   }
 
-    .fa-instagram:hover {
-        color: green;
-    }
+   .fa-instagram:hover {
+       color: green;
+   }
 
-    .fa-youtube:hover {
-        color: red;
-    }
+   .fa-youtube:hover {
+       color: red;
+   }
 
-    .fa-snapchat:hover {
-        color: yellow;
-    }
+   .fa-snapchat:hover {
+       color: yellow;
+   }
 
-    #socialul {
-        margin: 4px 0px 0px 0px;
-        padding-left: 6px;
-        height: 100%;
-    }
+   #socialul {
+       margin: 4px 0px 0px 0px;
+       padding-left: 6px;
+       height: 100%;
+   }
 
-    @media (max-width: 425px) {
-        #socialul {
-            margin: 2px 0px;
-            padding-left: 6px;
-            height: 100%;
-        }
-    }
-    /* Generic Classes */
+   @media (max-width: 425px) {
+       #socialul {
+           margin: 2px 0px;
+           padding-left: 6px;
+           height: 100%;
+       }
+   }
+   /* Generic Classes */
 
-    .no-padding {
-        padding: 0 !important;
-    }
+   .no-padding {
+       padding: 0 !important;
+   }
 
-    .no-pm {
-        padding: 0 !important;
-        margin: 0 !important;
-    }
+   .no-pm {
+       padding: 0 !important;
+       margin: 0 !important;
+   }
 
-    .hide {
-        display: none;
-    }
+   .hide {
+       display: none;
+   }
 
-    .overlay {
-        background-color: black !important;
-    }
-    /*Podcast Page */
+   .overlay {
+       background-color: black !important;
+   }
+   /*Podcast Page */
 
-    #pageHead {
-        margin: 15px 0px;
-    }
+   #pageHead {
+       margin: 15px 0px;
+   }
