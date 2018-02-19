@@ -93,7 +93,7 @@
 
    @media( max-width: 475px) {
        #navigation ul {
-           line-height: 80px;
+           line-height: 70px;
            font-size: 22px;
        }
    }
