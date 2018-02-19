@@ -36,9 +36,10 @@
 
     .burger-nav {
         float: left;
-        font-size: 25px;
+        font-size: 26px;
         position: absolute;
-        top: 35%;
+        top: 25px;
+        left: 25px;
     }
 
     #homenav {
@@ -85,11 +86,14 @@
     }
 
     .closebutton {
-        margin-top: 30px;
+        width: 90%;
+        top: 25px;
+        position: relative;
+
         font-size: 30px;
 
-        width: 100%;
-        margin-left: 30px;
+        left: 25px;
+        margin: 0 auto;
     }
 
     #logo {
