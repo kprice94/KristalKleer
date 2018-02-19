@@ -272,6 +272,10 @@
        padding: 70px;
    }
 
+   #about p span {
+       background-color: rgba(5, 5, 5, .5);
+   }
+
    #booknow {
        color: #fff;
        text-align: center;
@@ -487,4 +491,10 @@
 
    #pageHead {
        margin: 15px 0px;
+   }
+
+   @media(max-width: 475px) {
+       #pageHead h1 {
+           font-size: 18px;
+       }
    }
