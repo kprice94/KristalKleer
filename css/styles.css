@@ -10,7 +10,9 @@
        margin-right: 20px;
    }
 
-   h1 {}
+   h1 {
+       font-size: 24px;
+   }
 
    a {
        color: #000;
@@ -67,6 +69,7 @@
    @media(max-width: 992px) {
        .centerimg h2 {
            font-size: 20px;
+           margin: 5px 0px;
        }
    }
 
@@ -88,9 +91,10 @@
        line-height: 90px;
    }
 
-   @media( max-width: 350px) {
+   @media( max-width: 475px) {
        #navigation ul {
            line-height: 80px;
+           font-size: 22px;
        }
    }
 
@@ -263,6 +267,7 @@
    }
 
    #about {
+       font-size: 14px;
        color: #fff;
        padding: 70px;
    }
